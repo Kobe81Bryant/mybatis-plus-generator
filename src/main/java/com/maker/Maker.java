@@ -41,7 +41,7 @@ public class Maker {
      */
     private DataSourceConfig getDataSourceConfig() {
     	DataSourceConfig dataSourceConfig = new DataSourceConfig().setDbType(DbType.MYSQL)
-        .setUrl("jdbc:mysql://192.168.133.168:3306/test?useSSL=false")
+        .setUrl("jdbc:mysql://127.0.0.1:3306/test?useSSL=false")
         .setUsername("root")
         .setPassword("root")
         .setDriverName("com.mysql.jdbc.Driver");
