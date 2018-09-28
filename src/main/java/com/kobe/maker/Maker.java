@@ -1,4 +1,4 @@
-package com.maker;
+package com.kobe.maker;
 
 import com.baomidou.mybatisplus.generator.AutoGenerator;
 import com.baomidou.mybatisplus.generator.config.DataSourceConfig;
@@ -24,7 +24,7 @@ public class Maker {
     public void generateCode() throws IOException {
     	System.out.println("开始生成...");
         //指定包名
-        String packageName = "com";
+        String packageName = "com.kobe";
         //user -> UserService, 设置成true: user -> IUserService
         boolean serviceNameStartWithI = false;
         //指定生成的表名
