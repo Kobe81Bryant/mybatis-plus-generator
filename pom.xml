@@ -86,6 +86,11 @@
 			<version>4.0</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>com.informix.jdbc</groupId>
+			<artifactId>com.springsource.com.informix.jdbc</artifactId>
+			<version>3.0.0.JC3</version>
+		</dependency>
 		<!--驱动结束 -->
 	</dependencies>
 	<build>
